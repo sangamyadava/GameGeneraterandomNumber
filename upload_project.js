@@ -30,6 +30,7 @@ archive.on('error', (err) => {
 });
 
 // Pipe archive data to the file
+// please
 archive.pipe(output);
 
 // Exclude node_modules and gather all files and folders synchronously
